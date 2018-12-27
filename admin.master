@@ -1,0 +1,65 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="images/backnew.jpg">
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <table border="0" cellpadding="0" cellspacing="0" style="z-index: 100; left: 0px;
+            width: 100%; position: absolute; top: 0px; height: 100%">
+            <tr>
+                <td style="width: 977px; height: 100px">
+                    &nbsp;
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Roboto"
+                        Font-Size="36pt" ForeColor="Orange" Height="50px" Style="z-index: 102; left: 252px;
+                        vertical-align: middle; position: absolute; top: 25px; background-color: rgba(0,0,0,0.0);
+                        text-align: center" Text=" Rent Online" Width="435px"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 977px; height: 229px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+             <tr>
+                <td style="width: 977px; height: 20px">
+                <center>
+              <a href="#" onclick="history.go(-1)"><b>Back</b></a>
+              </center>
+                </td>
+                
+            </tr>
+            <tr>
+                <td style="width: 977px; height: 34px">
+                &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
